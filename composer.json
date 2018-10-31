@@ -1,18 +1,26 @@
 {
   "name": "pawankparmar/adminenablepayments",
   "description": "Hide payment method for front end",
-  "type": "magento2-module",
   "version": "1.0.1",
+  "require": {
+    "php": "~7.0.0|~7.1.0"
+  },
+  "type": "magento2-module",
+  "keywords": ["magento2"],
   "license": [
     "OSL-3.0",
     "AFL-3.0"
   ],
-  "require": {
-    "php": "~5.5.0|~5.6.0|~7.0.0",
-    "magento/framework": "~100.0.4"
-  },
+  "authors": [
+    {
+      "name": "Pawan Kumar Parmar",
+      "email": "mail@pawan.info"
+    }
+  ],
   "autoload": {
-    "files": [ "registration.php" ],
+    "files": [
+      "registration.php"
+    ],
     "psr-4": {
       "Pawan\\AdminEnablePayments\\": ""
     }
