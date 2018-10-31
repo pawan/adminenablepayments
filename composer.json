@@ -1,5 +1,5 @@
 {
-  "name": "pawan/adminenablepayments",
+  "name": "pawankparmar/adminenablepayments",
   "description": "Hide payment method for front end",
   "type": "magento2-module",
   "version": "1.0.1",
