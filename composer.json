@@ -1,5 +1,5 @@
 {
-  "name": "pawankp/adminenablepayments",
+  "name": "pawankparmar/adminenablepayments",
   "description": "Hide payment method for front end",
   "version": "1.0.1",
   "require": {
@@ -22,7 +22,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "PawanKP\\AdminEnablePayments\\": ""
+      "Pawan\\AdminEnablePayments\\": ""
     }
   }
 }
