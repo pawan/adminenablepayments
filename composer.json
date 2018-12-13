@@ -1,6 +1,7 @@
 {
   "name": "pawankparmar/adminenablepayments",
   "description": "Hide payment method for front end",
+  "homepage": "https://github.com/pawankparmar/adminenablepayments",
   "version": "1.0.1",
   "require": {
     "php": "~7.0.0|~7.1.0"
@@ -17,6 +18,9 @@
       "email": "mail@pawan.info"
     }
   ],
+  "support": {
+        "issues": "https://github.com/pawankparmar/adminenablepayments/issues"
+  },
   "autoload": {
     "files": [
       "registration.php"
