@@ -1,3 +1,9 @@
+# Magento 2 Admin Enable Payment Methods
+
+This module adds an easy way to use any payment method only for admin.
+By default magento does not support payment to be enable for only admin.
+With the help of this extension admin can enable specific payment method for admin only.
+
 # Installation and User Guide
 
 ## Installation
