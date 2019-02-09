@@ -2,7 +2,7 @@
   "name": "pawankparmar/adminenablepayments",
   "description": "Hide payment method for front end",
   "homepage": "https://github.com/pawankparmar/adminenablepayments",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "type": "magento2-module",
   "keywords": ["magento2"],
   "license": [
