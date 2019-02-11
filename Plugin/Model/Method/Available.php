@@ -1,6 +1,6 @@
 <?php
 
-namespace PawanKParmar\AdminEnablePayments\Plugin\Model\Method;
+namespace Pawan\AdminEnablePayments\Plugin\Model\Method;
 
 class Available
 {

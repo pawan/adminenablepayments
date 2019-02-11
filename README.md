@@ -10,15 +10,15 @@ With the help of this extension admin can enable specific payment method for adm
 
 ### 1. Using Composer:
 ```
-composer require pawankparmar/adminenablepayments
-php bin/magento module:enable PawanKParmar_AdminEnablePayments
+composer require pawan/adminenablepayments
+php bin/magento module:enable Pawan_AdminEnablePayments
 php bin/magento setup:upgrade
 ```
 ### 2. Manual Installation
 
 First extract package ZIP file on your computer.
 
-By using SSH/FTP upload file at Magento2Root/app/code/PawanKParmar/AdminEnablePayments
+By using SSH/FTP upload file at Magento2Root/app/code/Pawan/AdminEnablePayments
 
 After that you need to run following command:
 
@@ -33,9 +33,9 @@ After that you need to run following command:
 
 # How to check extension successfully installed.
 
-If extension successfully installed, You will see a new Menu at  **System->Configuration->Pawankparmar->Admin Enable Payment Methods** 
+If extension successfully installed, You will see a new Menu at  **System->Configuration->Pawan->Admin Enable Payment Methods** 
 
-![Configuration](https://raw.githubusercontent.com/pawankparmar/assets/master/Config_PawanKParmar.png)
+![Configuration](https://raw.githubusercontent.com/pawankparmar/assets/master/Config.png)
 
 # **How to Use Extension:**
 
@@ -51,11 +51,11 @@ Admin can choose which payment method need only for admin.
 
 **Front End**
 
-![FrontEnd](https://raw.githubusercontent.com/pawankparmar/assets/master/FrontEnd_PawanKParmar.png)
+![FrontEnd](https://raw.githubusercontent.com/pawankparmar/assets/master/FrontEnd.png)
 
 **Admin Create Order**
 
-![Admin](https://raw.githubusercontent.com/pawankparmar/assets/master/Admin_PawnKParmar.png)
+![Admin](https://raw.githubusercontent.com/pawankparmar/assets/master/Admin.png)
 
 # Support
 

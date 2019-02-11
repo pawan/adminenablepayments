@@ -1,6 +1,6 @@
 <?php
 
-namespace PawanKParmar\AdminEnablePayments\Model\Config\Source;
+namespace Pawan\AdminEnablePayments\Model\Config\Source;
 
 use \Magento\Framework\App\Config\ScopeConfigInterface;
 use \Magento\Payment\Model\Config;

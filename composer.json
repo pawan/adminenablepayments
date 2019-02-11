@@ -1,5 +1,5 @@
 {
-  "name": "pawankparmar/adminenablepayments",
+  "name": "pawan/adminenablepayments",
   "description": "Hide payment method for front end",
   "homepage": "https://github.com/pawankparmar/adminenablepayments",
   "version": "1.0.0",
@@ -23,7 +23,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "PawanKParmar\\AdminEnablePayments\\": ""
+      "Pawan\\AdminEnablePayments\\": ""
     }
   }
 }
