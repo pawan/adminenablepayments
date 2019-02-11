@@ -11,8 +11,8 @@ With the help of this extension admin can enable specific payment method for adm
 ### 1. Using Composer:
 ```
 composer require pawan/adminenablepayments
-php bin/magento module:enable Pawan_AdminEnablePayments
 php bin/magento setup:upgrade
+php bin/magento cache:flush
 ```
 ### 2. Manual Installation
 
@@ -25,7 +25,9 @@ After that you need to run following command:
 ```
 1. php bin/magento setup:upgrade
 2. php bin/magento cache:flush
-3. php bin/magento setup:static-content:deploy
+
+	If required content deploy, run 
+	php bin/magento setup:static-content:deploy
 
 	If required compilation, run 
 	php bin/magento setup:di:compile
