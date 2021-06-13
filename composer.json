@@ -1,14 +1,11 @@
 {
   "name": "pawan/adminenablepayments",
   "description": "Hide payment method for front end",
-  "homepage": "https://github.com/pawankparmar/adminenablepayments",
-  "version": "1.0.2",
+  "homepage": "https://github.com/pawan/adminenablepayments",
+  "version": "1.0.3",
   "type": "magento2-module",
   "keywords": ["magento2"],
-  "license": [
-    "OSL-3.0",
-    "AFL-3.0"
-  ],
+  "license": "MIT",
   "authors": [
     {
       "name": "Pawan Kumar Parmar",
@@ -16,7 +13,7 @@
     }
   ],
   "support": {
-        "issues": "https://github.com/pawankparmar/adminenablepayments/issues"
+        "issues": "https://github.com/pawan/adminenablepayments/issues"
   },
   "autoload": {
     "files": [

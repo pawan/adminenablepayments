@@ -2,28 +2,48 @@
 
 namespace Pawan\AdminEnablePayments\Plugin\Model\Method;
 
+use Magento\Framework\App\Config\ScopeConfigInterface;
+use Magento\Store\Model\ScopeInterface;
+
+/**
+ * Class Available will check which payment method need to hide form frontend
+ */
 class Available
 {
 
+    /**
+     * @var ScopeConfigInterface
+     */
     public $scopeConfig;
-    public $logger;
+    /**#@+
+    * Constants defined
+    */
+    const IS_ACTIVE = 'paymenthide/general/active';
+    const PAYMENT_METHODS = 'paymenthide/general/paymethods';
 
+    /**
+     * Available constructor.
+     * @param ScopeConfigInterface $scopeConfig
+     */
     public function __construct(
-        \Magento\Framework\App\Config\ScopeConfigInterface $scopeConfig,
-        \Psr\Log\LoggerInterface $logger
+        ScopeConfigInterface $scopeConfig
     ) {
         $this->scopeConfig = $scopeConfig;
-        $this->logger = $logger;
     }
 
+    /**
+     * @param $subject
+     * @param $result
+     * @return mixed
+     */
     public function afterGetAvailableMethods($subject, $result)
     {
-        
-        if (!$this->scopeConfig->getValue('paymenthide/general/active', \Magento\Store\Model\ScopeInterface::SCOPE_STORE)) {
+
+        if (!$this->scopeConfig->getValue(self::IS_ACTIVE, ScopeInterface::SCOPE_STORE)) {
             return $result;
         }
 
-        $methods = $this->scopeConfig->getValue('paymenthide/general/paymethods', \Magento\Store\Model\ScopeInterface::SCOPE_STORE);
+        $methods = $this->scopeConfig->getValue(self::PAYMENT_METHODS, ScopeInterface::SCOPE_STORE);
 
         $methodsArray = explode(",", $methods);
 
